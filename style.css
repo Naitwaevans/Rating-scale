@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #141519;
+}
+body{
+    font-family: "overpass",sans-serif;
+    font-size: 15px;
+    margin: 500px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    flex-direction: column;
+
+}
+
+button{
+    font-family: inherit;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container {
+    background-color:  #212731;
+    padding: 24 px;
+    border-radius: 10px;
+}
+
+.container img {
+background-color: hsl(216, 12%, 22%);
+padding: 0.5rem;
+border-radius: 50%;
+}
+.container h1{
+    color: #fff;
+    margin: 2rem;
+    background-color: #212731;
+}
+
+p{
+    line-height: 1.8;
+   
+}
+.container p{
+    color:#fff;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.container ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    background-color: transparent;
+}
+
+.container ul li button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #212731;
+    padding-top: 0.2 rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+   transition: 0.3s;
+   color: #5f6672;
+}
+
+.container ul li button:hover{
+    color: orange;
+}
+.submit{
+    background-color: hsl(25, 97, 53);
+    width: 100%;
+    padding: 0.8rem 0 0.7rem;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: olivedrab;
+    column-rule: orange;
+}
+
+.thankyou{
+    background-color:  #212731;
+    padding: 24 px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.thankyou img{
+    display: block;
+    margin: 0 auto 2rem;
+    background-color: transparent;
+}
+
+.thankyou p.gray{
+    background-color: transparent;
+    border-radius: 30px;
+    color: orange;
+    padding: o.2 0.5 rem;
+    font-size: 0.9rem;
+}
+.thankyou p{
+    color: hsl(217, 12%, 63%);
+}
+.hidden{
+    display: none;
+}
